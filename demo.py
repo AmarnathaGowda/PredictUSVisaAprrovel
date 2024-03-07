@@ -8,11 +8,17 @@ from PredictUSVissaApproval.logger import logging
 from PredictUSVissaApproval.exception import USvisaException
 import sys
 
-try:
-    a = 1/ "10"
-except Exception as e:
-    # logging.info(e)
-    raise USvisaException(e, sys) from e
+# try:
+#     a = 1/ "10"
+# except Exception as e:
+#     # logging.info(e)
+#     raise USvisaException(e, sys) from e
 
 
 #----------------------------------------------------------------
+
+from PredictUSVissaApproval.pipeline.train_pipeline import TrainPipeline
+
+pipline = TrainPipeline()
+
+pipline.run_pipeline()

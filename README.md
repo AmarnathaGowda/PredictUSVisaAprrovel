@@ -25,3 +25,20 @@ create the file .env
 ```bash
 Add the MongoDBClient key and value as you MangoDB configuration string
 ```
+
+
+## Workflow configuration
+
+1. constant
+2. config_entity
+3. artifact_entity
+4. conponent
+5. pipeline
+6. app.py
+
+
+### Export the Environment variable
+
+```bash
+export MONGODB_URL="mongodb+srv://<username>:<password>....."
+```
