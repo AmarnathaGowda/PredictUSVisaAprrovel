@@ -12,6 +12,7 @@ from PredictUSVissaApproval.logger import logging
 
 def read_yaml_file(file_path: str) -> dict:
     try:
+        # logging.info(f"Yaml_file_path: {file_path}")
         with open(file_path, "rb") as yaml_file:
             return yaml.safe_load(yaml_file)
 
@@ -28,7 +29,7 @@ def write_yaml_file(file_path: str, content: object, replace: bool = False) -> N
         with open(file_path, "w") as file:
             yaml.dump(content, file)
     except Exception as e:
-        raise USvisaException(e, sys)
+        raise USvisaException(e, sys) from e
 
 
 def load_object(file_path: str) -> object:
