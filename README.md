@@ -48,6 +48,37 @@ The project is structured in a modular code format, facilitating maintainability
 ![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Model%20Pusher.png)
 
 
+## wireframe
+### Initial :
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/wireframe%201%20-%20initializing%20the%20values.png)
+
+### OutPut : 
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/wireframe%202%20-%20Rediction%20output.png)
+
+## Tech stack: 
+
+Our project harnesses a diverse and powerful set of technologies to create a robust and efficient system for predicting US visa approval outcomes 🚀. Here's a breakdown of our tech stack:
+
+* **Python 🐍:** Our core programming language, chosen for its versatility and the vast ecosystem of data science libraries. 
+    We adhere to a modular coding approach for better maintainability and readability.
+* **Jupyter Notebook 📓:** Utilized for conducting Exploratory Data Analysis (EDA) and feature engineering, allowing us 
+    to iteratively explore and visualize our data with ease.
+* **VS Code 🛠️:** Our Integrated Development Environment (IDE) of choice, providing a powerful platform for code development 
+    with extensive support for Python and data science workflows.
+* **MongoDB 🍃:** This NoSQL document database stores and manages our visa application data. Its flexible schema and scalability 
+    make it ideal for handling our large and complex datasets.
+* **GitHub 🐱:** Serves as our version control system and the backbone for our Continuous Integration and Continuous Deployment 
+    (CI/CD) workflows, ensuring our project remains collaborative and up-to-date.
+* **FastAPI 🚀:** Chosen for its speed and ease of use, FastAPI helps us build our application's wireframe, enabling quick 
+    and reliable interaction with our predictive model.
+* **AWS ☁️:** Amazon Web Services provide the infrastructure for deploying our application/model. From compute power (EC2) to 
+    storage (S3) and container management (ECR), AWS ensures our system is scalable, secure, and accessible.
+
+Each component of our tech stack plays a crucial role in delivering a seamless and effective solution for predicting the outcome of US visa applications.
+
+
+
 ## How to run?
 
 ```bash
