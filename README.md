@@ -1,8 +1,52 @@
-# PredictUSVisaAprrovel
+# Revolutionizing US Visa Approvals with AI
 
-The structure of the project as below 
+The United States embassy gets a large number of visa applications, many of which do not match the acceptance standards and are thus rejected. To improve the speed of the visa application process and provide applicants with preliminary insights, our technology attempts to forecast the possibility of visa approval based on the candidate's submitted information. This prediction model acts as a significant tool in helping applicants through the visa process, perhaps raising the odds of acceptance by allowing them to address any potential concerns in advance.
+
+## System Overview:
+
+Our project aims to predict the outcome of US visa applications by developing a sophisticated machine learning model. This model processes a series of input data to determine the likelihood of visa approval. We source our data from a comprehensive dataset available on Kaggle, which can be found at the following link: [EasyVisa Dataset](https://www.kaggle.com/datasets/moro23/easyvisa-dataset).
+
+To refine our data and enhance the model's accuracy, we undertake Exploratory Data Analysis (EDA) and feature engineering. These critical steps are documented in our project notebooks, accessible via the following links:
+
+* EDA Process: [EDA Notebook](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/notebook/1_EDA_US_visa.ipynb)
+* Feature Engineering and Model Training: [Feature Engineering Notebook](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/notebook/2_Feature_Engineering_and_Model_Training.ipynb)
+
+Our approach is not limited to a single machine learning algorithm; instead, we explore a variety of classification algorithms including Random Forest, Decision Tree, Gradient Boosting, Logistic Regression, K-Neighbors Classifier, XGBClassifier, and CatBoost Classifier. To optimize performance, we apply hyperparameter tuning to these models and select the most effective one based on predictive accuracy.
+
+The project is structured in a modular code format, facilitating maintainability and scalability. Continuous Integration and Continuous Deployment (CI/CD) are implemented via GitHub Actions, ensuring automated testing and deployment. The final system is hosted on AWS, leveraging services such as S3 buckets, Elastic Container Registry (ECR), and EC2 instances to provide a robust and scalable solution.
+
+
+
+## The Project arctitcture Details :
+
+### The structure of the project as below :
 
 ![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/untitled.png)
+
+### Data Ingention flow : 
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Data%20Ingestion.png)
+
+### Data Transformation flow : 
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Data%20Transformation.png)
+
+### Data Validation flow:
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Data%20Validation.png)
+
+### Model Trainer flow :
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Model%20Trainer.png)
+
+### Model Evaluation flow :
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Model%20Evaluation.png)
+
+### Model Pusher flow :
+
+![alt text](https://github.com/AmarnathaGowda/PredictUSVisaAprrovel/blob/main/asset/Model%20Pusher.png)
+
 
 ## How to run?
 
